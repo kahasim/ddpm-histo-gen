@@ -14,5 +14,3 @@ The experimentation is broken up into Ablation and Training, where
 Enjoy these reverse diffusion images!
 
 ![reversediffusion1](https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention43-interval10.gif)
-
-![reversediffusion2](cv-f22/images/gifs/cosine_beta_schedule-no_attention05-interval10.gif)
