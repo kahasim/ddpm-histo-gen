@@ -11,6 +11,6 @@ The experimentation is broken up into Ablation and Training, where
 
 - The main Experiment: Two separate models trained under two separare notebooks, `ddpm_cancerous` and `ddpm_non-cancerous` which adds the feature of training where would else be left off (or training ended early), due to potential bugs or usage limits implemented when training on Google Colab.
 
-Enjoy these reverse diffusion images!
+Enjoy this trippy reverse diffusion image!
 
 ![reversediffusion1](https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention43-interval10.gif)
