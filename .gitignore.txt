@@ -1,0 +1,2 @@
+# Ignores all trained models (too large of file size)
+*.pt
