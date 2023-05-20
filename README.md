@@ -15,36 +15,9 @@ Note: Will be soon updating code to a conditional DDPM version, accepting classe
 
 For now, enjoy these trippy reverse diffusion image!
 
-<style>
-mark {
-  box-sizing: border-box;
-}
-
-.row {
-  display: flex;
-}
-
-/* Create three equal columns that sits next to each other */
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-</style>
-
-<div class="row">
-  <div class="column">
+<p float="left">
     <img src="https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention05-interval10.gif" alt="Reverse Diffusion 1" style="width:100%">
-  </div>
-  <div class="column">
     <img src="https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention26-interval10.gif" alt="Reverse Diffusion 2" style="width:100%">
-  </div>
-</div>
-
-<div class="row">
-  <div class="column">
     <img src="https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention43-interval10.gif" alt="Reverse Diffusion 3" style="width:100%">
-  </div>
-  <div class="column">
     <img src="https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention47-interval10.gif" alt="Reverse Diffusion 4" style="width:100%">
-  </div>
-</div>
+</p>
