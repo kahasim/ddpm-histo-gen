@@ -15,40 +15,21 @@ Note: Will be soon updating code to a conditional DDPM version, accepting classe
 
 For now, enjoy these trippy reverse diffusion image!
 
-<html>
-<head>
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-</head>
-<body>
 
 <div class="row">
   <div class="column">
-    <img src="[img_snow.jpg](https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention05-interval10.gif)" alt="Snow" style="width:100%">
+    <img src="https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention05-interval10.gif" alt="Snow" style="width:100%">
   </div>
   <div class="column">
     <img src="[img_forest.jpg](https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention26-interval10.gif)" alt="Forest" style="width:100%">
   </div>
-  <div class="column">
-    <img src="[img_mountains.jpg](https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention43-interval10.gif)" alt="Mountains" style="width:100%">
-  </div>
 </div>
 
-</body>
-</html>
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention43-interval10.gif" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention47-interval10.gif" alt="Forest" style="width:100%">
+  </div>
+</div>
