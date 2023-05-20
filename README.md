@@ -15,6 +15,21 @@ Note: Will be soon updating code to a conditional DDPM version, accepting classe
 
 For now, enjoy these trippy reverse diffusion image!
 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
 
 <div class="row">
   <div class="column">
