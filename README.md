@@ -16,7 +16,7 @@ Note: Will be soon updating code to a conditional DDPM version, accepting classe
 For now, enjoy these trippy reverse diffusion image!
 
 <style>
-* {
+mark {
   box-sizing: border-box;
 }
 
