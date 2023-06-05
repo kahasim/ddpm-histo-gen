@@ -1,7 +1,7 @@
-# Denoising Diffusion Probabilistic Models for Histopathologic Image Generation
+# Denoising Diffusion Probabilistic Models for Synthetic Histopathologic Image Generation
 ## Author: Sunny Son
 
-This repository is primarily for the Final Proejct for Computer Vision.
+This repository is primarily for the Final Project for Computer Vision, CSGA-2271, Fall 2022.
 
 The experimentation is broken up into Ablation and Training, where
 
@@ -11,7 +11,12 @@ The experimentation is broken up into Ablation and Training, where
 
 - The main Experiment: Two separate models trained under two separare notebooks, `ddpm_cancerous` and `ddpm_non-cancerous` which adds the feature of training where would else be left off (or training ended early), due to potential bugs or usage limits implemented when training on Google Colab.
 
-Note: Will be soon updating code to a conditional DDPM version, accepting classes of images dependent on a label through affected time embedding.
+There is much to do, and will be outlined here:
+
+- [ ] Create a combined, **conditional** DDPM model to handle both input classes of cancerous and non-cancerous images.
+- [ ] Add a feature in the main `DiffusionModel` class allowing for the specification of a `dim_mults` parameter to define the channel number at each layer and number of layers to use
+- [ ] Increasing the input image size to 96x96px
+- [ ] Allowing for training in parallel on multiple GPUs using Kubernetes
 
 For now, enjoy these reverse diffusion images!
 
