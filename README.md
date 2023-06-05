@@ -13,7 +13,7 @@ The experimentation is broken up into Ablation and Training, where
 
 Note: Will be soon updating code to a conditional DDPM version, accepting classes of images dependent on a label through affected time embedding.
 
-For now, enjoy these trippy reverse diffusion images!
+For now, enjoy these reverse diffusion images!
 
 <img src="https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention05-interval10.gif" alt="Reverse Diffusion 1" width="45%"> <img src="https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention26-interval10.gif" alt="Reverse Diffusion 2" width="45%">
 <img src="https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention43-interval10.gif" alt="Reverse Diffusion 3" width="45%"> <img src="https://github.com/sunnydigital/cv-f22/blob/main/images/gifs/cosine_beta_schedule-no_attention47-interval10.gif" alt="Reverse Diffusion 4" width="45%">
