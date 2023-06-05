@@ -1,4 +1,4 @@
-# Denoising Diffusion Probabilistic Models for Histopathologic Image generation
+# Denoising Diffusion Probabilistic Models for Histopathologic Image Generation
 ## Author: Sunny Son
 
 This repository is primarily for the Final Proejct for Computer Vision.
