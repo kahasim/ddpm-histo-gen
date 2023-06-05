@@ -1,7 +1,14 @@
 # Denoising Diffusion Probabilistic Models for Synthetic Histopathologic Image Generation
 ## Author: Sunny Son
 
-This repository is primarily for the Final Project for Computer Vision, CSGA-2271, Fall 2022.
+This repository is primarily for the Final Project for Computer Vision, CSGA-2271, Fall 2022, the goal of which being to train two (unconditional) DDPMs on classed datasets of `cancerous` and `non_cancerous` images obtained from the Patch Camelyon dataset.
+
+We then ablate the models through two algorithmic metrics of:
+
+- SSIM (Structural Similarity) Index
+- Maximum Likelihood (in practice minimizing the log likelihood between any two images)
+
+to test for the parameters `schedule` ($\beta$ noise schedule to use) and `attention` (whether or not to use an attention mechanism)
 
 The experimentation is broken up into Ablation and Training, where
 
