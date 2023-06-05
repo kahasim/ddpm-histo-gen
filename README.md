@@ -6,7 +6,7 @@ This repository is primarily for the Final Project for Computer Vision, CSCI-GA.
 We then ablate the models through two algorithmic metrics of:
 
 - SSIM (Structural Similarity) Index
-- Maximum Likelihood (in practice minimizing the log likelihood between any two images)
+- Maximum Likelihood (in practice minimizing the log likelihood)
 
 to test for the parameters `schedule` ($\beta$ noise schedule to use) and `attention` (whether or not to use an attention mechanism)
 
