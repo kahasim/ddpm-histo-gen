@@ -1,4 +1,4 @@
-# Computer Vision (CSCI-GA.2271) Final Project Repository
+# Denoising Diffusion Probabilistic Models for Histopathologic Image generation
 ## Author: Sunny Son
 
 This repository is primarily for the Final Proejct for Computer Vision.
