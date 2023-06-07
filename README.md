@@ -26,7 +26,7 @@ There is much to do, and will be outlined here:
 
 - [ ] Create a combined, **conditional** DDPM model to handle both input classes of cancerous and non-cancerous images.
 - [ ] Add a feature in the main `DiffusionModel` class allowing for the specification of a `dim_mults` parameter to define the channel number at each layer and number of layers to use
-- [ ] Increasing the input image size to 96x96px
+- [ ] Increasing the input image size to 96x96px, specifically dealing with challenges of the Patch Camelyon dataset where only the centercropped 32x32px image determines image class
 - [ ] Allowing for training in parallel on multiple GPUs using Kubernetes
 
 For now, enjoy these reverse diffusion images!
