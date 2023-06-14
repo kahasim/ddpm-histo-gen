@@ -3,9 +3,6 @@
 
 <p align="center">
     <img src="https://github.com/sunnydigital/ddpm-histo-gen/blob/main/assets/slide1.png" alt="Slide 1" width="100%">
-</p>
-
-<p align="center">
     <img src="https://github.com/sunnydigital/ddpm-histo-gen/blob/main/assets/slide2.png" alt="Slide 2" width="100%">
 </p>
 
