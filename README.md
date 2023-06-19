@@ -1,4 +1,4 @@
-# Denoising Diffusion Probabilistic Models for Synthetic Histopathologic Image Generation
+# Denoising Diffusion Probabilistic Models for Synthetic Histopathologic Image Generation (CSCI-GA - 2271)
 ## Author: Sunny Son
 
 <p align="center">
