@@ -25,10 +25,11 @@ The experimentation is broken up into Ablation and Training, where
 
 There is much to do, and will be outlined here:
 
+- [ ] Fully debugging/completing class integration of the DDPM model.
 - [ ] Create a combined, **conditional** DDPM model to handle both input classes of cancerous and non-cancerous images.
 - [ ] Add a feature in the main `DiffusionModel` class allowing for the specification of a `dim_mults` parameter to define the channel number at each layer and number of layers to use
 - [ ] Increasing the input image size to 96x96px, specifically dealing with challenges of the Patch Camelyon dataset where only the centercropped 32x32px image determines image class, and later generalizing (using other datasets) to larger sized iamges (512x512px and beyond).
-- [ ] Allowing for training in parallel on multiple GPUs using Kubernetes
+- [ ] Allowing for training in parallel on multiple GPUs using correct PyTorch code.
 
 For now, enjoy these reverse diffusion images!
 
