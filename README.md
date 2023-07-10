@@ -8,6 +8,8 @@
 
 This repository is primarily for the Final Project for Computer Vision, CSCI-GA.2271 Fall 2022, the goal of which being to train two (unconditional) DDPMs on classed datasets of `cancerous` and `non_cancerous` images obtained from the Patch Camelyon dataset.
 
+**NOTE**: This repository is incomplete in terms of the `ablation_study` files. In attempting to convert the initial naive model, which were without a reusable class implementation of UNet/Diffusion Model classes, was made a bug affecting the reusable class definition of `Diffusion` model.
+
 We then ablate the models through two algorithmic metrics of:
 
 - SSIM (Structural Similarity) Index
