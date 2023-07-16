@@ -8,8 +8,6 @@
 
 This repository is primarily for the Final Project for Computer Vision, CSCI-GA.2271 Fall 2022, the goal of which being to train two (unconditional) DDPMs on classed datasets of `cancerous` and `non_cancerous` images obtained from the Patch Camelyon dataset.
 
-**NOTE**: This repository is incomplete in terms of the `ablation_study` files. In attempting to convert the initial naive model, which were without a reusable class implementation of UNet/Diffusion Model classes, was made a bug affecting the reusable class definition of `Diffusion` model.
-
 We then ablate the models through two algorithmic metrics of:
 
 - SSIM (Structural Similarity) Index
@@ -27,7 +25,8 @@ The experimentation is broken up into Ablation and Training, where
 
 There is much to do, and will be outlined here:
 
-- [ ] Fully debugging/completing class integration of the DDPM model.
+- [x] Fully debugging/completing class integration of the initial **classed** DDPM model.
+      ✅ Fixed: funny enough this was due to creating an initial time embedding `t` as a `torch.tensor` instead of `np.ndarray`, causing the tensor to be added onto the computational graph and gradients backpropogated.
 - [ ] Create a combined, **conditional** DDPM model to handle both input classes of cancerous and non-cancerous images.
 - [ ] Add a feature in the main `DiffusionModel` class allowing for the specification of a `dim_mults` parameter to define the channel number at each layer and number of layers to use
 - [ ] Increasing the input image size to 96x96px, specifically dealing with challenges of the Patch Camelyon dataset where only the centercropped 32x32px image determines image class, and later generalizing (using other datasets) to larger sized iamges (512x512px and beyond).
